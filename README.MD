@@ -1,8 +1,6 @@
 # CNN样例: 使用AlexNet模型对于花朵图片进行分类
 
-**训练用的数据集太大，放到了网盘上**
-
-**训练的时候注意先下载下来放到```flower_data```文件夹里**
+## 说明
 
 ```train.py```是训练脚本
 ```GUI.py```是图形界面
@@ -13,7 +11,41 @@
 
 
 
-图形界面```GUI.py```使用方法
+## 下载训练集
+
+如果你想自己训练一遍，可以下载下边这个鲜花训练集
+
+<img src="./readme_img/image-20200429164204119.png" alt="image-20200429164204119" style="zoom: 33%;" />
+
+**训练用的数据集体积太大，放到了蓝奏云网盘上**
+
+分块压缩包，注意改成正确的后缀名，然后放到一起解压那个 ```.zip```文件
+
+https://lanzous.com/ic2kbsd  (后缀名改成```.z02```)
+
+https://lanzous.com/ic2k8pc (后缀名改成```.z01```)
+
+https://lanzous.com/ic2jzzi (后缀名不用改，和前两个放在一起，解压本压缩文件)
+
+<img src="./readme_img/image-20200429164644862.png" alt="image-20200429164644862" style="zoom: 67%;" />
+
+将解压出来的 ```train``` 和 ```val``` 文件夹放进 ```flower_data``` 文件夹
+
+
+
+
+
+## 使用预训练好的模型文件
+
+下载下来解压出```AlexNet.pth```文件和```GUI.py```放到同一级目录下即可
+
+https://lanzous.com/ic2kxda
+
+
+
+
+
+## 图形界面```GUI.py```使用方法
 
 1. 先加载训练好的模型文件```AlexNet.pth```
 

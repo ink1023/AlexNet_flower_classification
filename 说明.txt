@@ -1,6 +1,0 @@
-train.py是训练脚本
-GUI.py是图形界面
-
-AlexNet.pth是已经训练好的模型
-
-有3张测试用的图片 pgy.jpg/xrk.jpg/yjx.jpg
